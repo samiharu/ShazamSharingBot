@@ -1,7 +1,7 @@
 from flask import Flask, request
 from telegram.ext import Application, CommandHandler, ContextTypes
 from asgiref.wsgi import WsgiToAsgi
-from .variables import *
+from variables import *
 
 
 app = Flask(__name__)
